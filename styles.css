@@ -114,6 +114,11 @@ li {
   background: #f3efe7;
 }
 
+.button-tiktok {
+  color: white;
+  background: #111111;
+}
+
 .text-link,
 .back-link,
 a {
@@ -129,6 +134,26 @@ a {
 
 .legal h2:first-of-type {
   margin-top: 18px;
+}
+
+.social-card {
+  border-color: rgba(17, 17, 17, 0.14);
+}
+
+.site-footer {
+  margin-top: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.site-footer a {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.74);
+  text-decoration: none;
+  border: 1px solid var(--line);
 }
 
 ul {
